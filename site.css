@@ -1,0 +1,51 @@
+
+html,body,h1,h2,h3,h4,h5,p {
+	margin:0;padding:0;
+}
+html,body {
+	width:100%;margin:0;padding:0;
+}
+html {
+	font-family: "Courier", "Courier New", helvetica, arial, sans-serif;
+	color:#444;
+}
+
+h1 {
+	margin: 1em auto 0;
+	text-indent:-9999px;
+	background:url('logo.png') no-repeat center center;
+	width: 299px;
+	height: 222px;
+}
+h1,h2 {
+	text-align: center;
+}
+h2 {
+	margin-top: 0.5em;
+	color: #999;
+	font-size:0.8em;
+}
+ul.benefits {
+	margin: 2.8em auto 0;
+	width: 400px;
+}
+.swim {
+	width: 8px;
+	height: 8px;
+	border-radius:8px;
+	border: 1px solid #999;
+	position:absolute;
+	z-index: 999999;
+}
+
+#copyr,#copyr:visited{
+	position:fixed;
+	font-size: 0.7em;
+	bottom:0;
+	left:0;
+	margin:5px;
+	color:#8CA57D;
+}
+#copyr:hover,#copyr:active {
+	color:#A3C895;
+}
